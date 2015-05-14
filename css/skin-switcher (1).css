@@ -1,0 +1,188 @@
+/*General for skin switcher*/
+.modeltheme_skin_switcher #demopanel {
+    left: 0px; 
+    position: fixed; 
+    top: 0; 
+    z-index: 9999;
+    height: 100%;
+}
+.modeltheme_skin_switcher #panel {
+    position:relative;
+    left:-300px;
+    overflow-y: scroll;
+}
+.modeltheme_skin_switcher .panel_button { 
+    position: relative; 
+    left:0px; 
+    width:48px; 
+    cursor: pointer; 
+    z-index:10;
+    top: 30%;
+}
+.modeltheme_skin_switcher h3 {
+    font-weight: 400;
+}
+.modeltheme_skin_switcher #panel {
+    background: #2c3e50;
+    color: #fff;
+    font-size: 10px;
+    left: -280px;
+    height: 100%;
+    padding: 15px;
+    position: absolute;
+    width: 300px;
+}
+.modeltheme_skin_switcher #panel select { 
+    margin-bottom:5px; 
+    width:120px;
+}
+.modeltheme_skin_switcher #panel .selector ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.modeltheme_skin_switcher #panel .selector  ul li {
+    border: 1px solid #888888;
+    cursor: pointer;
+    float: left;
+    height: 15px;
+    margin: 3px;
+    width: 15px;
+    background-color:#fff;
+}
+.modeltheme_skin_switcher .panel_button {
+    background: #2C3E50;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-top: 8px;
+}
+.modeltheme_skin_switcher .panel_button i{
+    color:#fff;
+    font-size:33px;
+    text-align: center;
+}
+.modeltheme_skin_switcher .colors_buttons span {
+    display: block;
+    float: left;
+    height: 61px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    width: 61px;
+    cursor: pointer;
+}
+.modeltheme_skin_switcher .colors_buttons span {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 60px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    width: 60px;
+}
+.modeltheme_skin_switcher .theme_variants > a {
+    display: block;
+    margin-bottom: 15px;
+}
+img.lazy{
+    display: none;
+}
+/*COLORS*/
+.defaultblue{
+    background: #00ADEF;
+}
+.green{
+    background: #2DCC70;
+}
+.turquoise{
+    background: #1BBC9B;
+}
+.grey{
+    background: #95A5A5;
+}
+.orange{
+    background: #E77E23;
+}
+.red{
+    background: #E84C3D;
+}
+.yellow{
+    background: #F1C40F;
+}
+.purple{
+    background: #9b59b6;
+}
+/*IMAGES*/
+.scroll_on_hover:hover{
+    background-position: left bottom;
+}
+.scroll_on_hover{
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    transition: all 2s ease-out 0s;
+    -webkit-transition: all 2s ease-out 0s;
+    width: 100%;
+    background-size: cover;
+}
+.scroll_on_hover.ver1{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/02_home.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.ver2{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/03_blog.jpg'); 
+    transition: all 3s ease 0s;
+    -webkit-transition: all 3s ease 0s;
+}
+.scroll_on_hover.ver3{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/04_blog_post.jpg'); 
+}
+.scroll_on_hover.ver4{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/05_features.jpg'); 
+    transition: all 4s ease 0s;
+    -webkit-transition: all 4s ease 0s;
+}
+.scroll_on_hover.skin1{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/1-skin-turquoise.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin2{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/2-skin-yellow.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin3{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/3-skin-red.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin4{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/4-skin-purple.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin5{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/5-skin-orange.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin6{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/6-skin-grey.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin7{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/7-skin-green.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
+.scroll_on_hover.skin8{ 
+    background-image: url('http://modeltheme.com/trend/tf/img-pages/8-skin-blue.jpg'); 
+    transition: all 6s ease 0s;
+    -webkit-transition: all 6s ease 0s;
+}
